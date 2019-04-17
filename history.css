@@ -57,76 +57,20 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
-.pic{
-    /* height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px; */
-    /* display: inline; */
-   
-    
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    font-size: 20px;
 }
-.carousel-cell-image{
-    height: 500px; 
-    width: 500px; 
-    margin: 10px;
-    border-radius: 50%;
-
-}
-.container{
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-
-    
-}
-.poundinfo{
-    margin: 0px;
-    display: flex;
-    /* margin-block-start: 0;
-    margin-block-end: 0; */
-    
+.frist{
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-
-
+    /* align: center; */
+    border-radius: 50%
 }
-img.frist{ 
-    height: 200px; 
-    width: 200px; 
-    margin: 10px;
-    text-align: left;
-    border-radius: 50%;
-    display: inline-block;
-
-    
-}
-p {
-    display: inline-block;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-/* div.poundinfo {
-    display: inline-block;
-    margin-block-end: 200px;
-} */
-.riyalinfo{
-    display: flex;
-    /* box-align: left; */
-    
-}
-img.second{ 
-    height: 200px; 
-    width: 200px; 
-    margin: 10px;
-    border-radius: 50%;
-    /* max-width: 300px; 
-    max-height: 300px; */
-    display: inline-block;
-    
-}
-
-
 footer {
     background: #121212;
     padding:10px;

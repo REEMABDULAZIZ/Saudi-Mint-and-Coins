@@ -57,22 +57,9 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-
-.pic{
-    /* height: auto; 
-    width: auto; 
-    max-width: 300px; 
-    max-height: 300px; */
-    /* display: inline; */
-   
-    
-}
-.carousel-cell-image{
-    height: 500px; 
-    width: 500px; 
-    margin: 10px;
-    border-radius: 50%;
-
+#six{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     text-align: center;
@@ -120,13 +107,14 @@ img.second{
     width: 200px; 
     margin: 10px;
     border-radius: 50%;
-    /* max-width: 300px; 
-    max-height: 300px; */
+    
     display: inline-block;
     
 }
 
-
+/* #fifty{
+    border-radius: 100%;
+} */
 footer {
     background: #121212;
     padding:10px;

@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
+
 <body>
     <main>
         <section class="a">
-                <h1 class="mint">
-                    Saudi Mint and Coins
-                </h1>
-                <div class="info">
-                    <a href="" class="collection">Our Collection</a>
-                    <a href="" class="gift">Gifts Ideas</a>
-                    <a href="" class="release">New Releases</a>
-                    <a href="" class="about">About</a>
-                </div>
-        </section>
-
-        <section class = "pic">
-            <p class="info1">
-            <img  src="image/pound.jpg" class= "frist" alt="pound">
-                <!-- Gold Saudi Pound
-                22 Karat
-                8 Grams
-                400$ -->
-
-            <div>
-                Gold Saudi Pound
+            <h1 class="mint">
+                <a href="index.html" class="home">Saudi Mint and Coins</a>
+            </h1>
+            <div class="info">
+                <a href="collection.html" class="collection">Our Collection</a>
+                <a href="history.html" class="history">History</a>
+                <a href="release.html" class="release">New Releases</a>
+                <a href="about.html" class="about">About</a>
             </div>
-            </p>
-
-            <p>
-                <img  src="image/rs.jpeg" class= "second" alt="RS">
-                <div>
-                    Silver Saudi Riyal
-                </div>
-                </p>
-            
         </section>
 
-        <!-- <footer>
+        <div class="carousel" data-flickity='{ "lazyLoad": true }'>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="image/pound.jpg" alt="POund" />
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="image/rs.jpeg" alt="RS" />
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="image/100th.jpeg" alt="100th" />
+            </div>
+            <div class="carousel-cell">
+                <img class="carousel-cell-image" data-flickity-lazyload="image/qarsh.jpg" alt="Qarsh" />
+            </div>
+        </div>
 
-            <p class="last">
-             Call us:000000
-            </p>
-        </footer> -->
+    </main>
+    <footer>
+        <h4 class="logo"></h4>
 
-        </main>
-        <footer>
+        <ul>
+            <li><a href="#"><img src="image/twitter.png" alt="Twitter logo"></a></li>
+            <li><a href="#"><img src="image/facebook.png" alt="Facebook logo"></a></li>
+        </ul>
 
-                <p class="last">
-                 Call us:000000
-                </p>
-            </footer>
+        <p class="copyright">Copyright 2019، Copyright 2019، Saudi Mint and Coins.</p>
+    </footer>
     
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="main.js"></script>
+
 </body>
+
 </html>
